@@ -1,0 +1,58 @@
+.categerios-section{
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    text-align: center;
+  }
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; /* Dark gray color */
+    margin-bottom: 30px;
+  }
+  .categerios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    justify-items: center; 
+  }
+  .category-card{
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: 100%; 
+    max-width: 300px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  .category-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); 
+    cursor: pointer;
+  }
+  .category-icon {
+    font-size: 40px;
+    color: #007bff; 
+    margin-bottom: 15px;
+  }
+  .category-card h3 {
+    font-size: 20px;
+    color: #333; /* Dark gray for the title */
+    margin-bottom: 10px;
+  }
+  .category-card p {
+    font-size: 16px;
+    color: #555; /* Subtle gray for the text */
+  }
+  .btn1{
+   background-color: #007bff;
+   border: none;
+   color: white;
+   padding: 8px 8px;
+   border-radius: 5px;
+   margin-top: 15px;
+  }
+  .btn1:hover{
+    background-color: #0a71df;
+  }

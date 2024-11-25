@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 20px 40px;
+    background-color: #ffffff;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links{
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-links li:hover{
+    color: #2196f3;
+}
+ .nav-links .btn{
+    background-color: #2196f3; 
+    color: #fff;
+    border-radius: 13px;
+   
+}

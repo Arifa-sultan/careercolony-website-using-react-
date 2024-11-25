@@ -1,0 +1,70 @@
+
+/* Projects Section Styles */
+.projects-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .projects-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  
+  /* Grid for project cards */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual Project Card */
+  .project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .project-card-author,
+  .project-card-date {
+    font-size: 14px;
+    color: #555;
+    margin: 2px 0;
+  }
+  
+  /* Browse Button */
+  .browse-button {
+    margin-top: 30px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .browse-button:hover {
+    background-color: #0097a7;
+  }
+  
